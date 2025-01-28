@@ -1,7 +1,19 @@
 {
   "name": "click-outside-element-typescript",
-  "version": "0.0.0",
-  "main": "src/index.js",
+  "version": "1.1.0",
+  "private": false,
+  "author": "Kouhei Negishi",
+  "description": "Execute the function passed as an argument when clicking outside the element",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mogataro/vue3-autocomplete"
+  },
   "scripts": {
     "build": "npx tsc",
     "lint": "eslint . --fix",
@@ -13,9 +25,6 @@
     "typescript",
     "vue3"
   ],
-  "author": "Kouhei Negishi",
-  "license": "MIT",
-  "description": "Execute the function passed as an argument when clicking outside the element",
   "devDependencies": {
     "@eslint/js": "^9.19.0",
     "@types/node": "^22.12.0",
