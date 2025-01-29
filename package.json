@@ -1,6 +1,6 @@
 {
   "name": "click-outside-element-typescript",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": false,
   "author": "Kouhei Negishi",
   "description": "Execute the function passed as an argument when clicking outside the element",
